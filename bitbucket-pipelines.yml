@@ -7,5 +7,5 @@ pipelines:
           enabled: false
         script:
           - git clone --bare git@bitbucket.org:asha8411p/test.git
-          - cd RepoName.git
+          - cd test.git
           - git push --mirror git@github.com:asha8411p/test.git
