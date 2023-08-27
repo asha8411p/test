@@ -5,5 +5,5 @@ pipelines:
     - step:
         name: Sync to GitHub
         script:
-          - git remote add origin git@github.com:asha8411p/test.git
-          - git push github main
+          - git remote add all git@github.com:asha8411p/test.git
+          - git push all 
