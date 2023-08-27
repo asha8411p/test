@@ -1,11 +1,9 @@
+image: atlassian/default-image:2
+
 pipelines:
   default:
     - step:
-        name: Sync GitHub Mirror
-        image: alpine/git:latest
-        clone:
-          enabled: true
+        name: Sync to GitHub
         script:
-          - git clone --bare git@github.com:asha8411p/test.git
-          - cd test.git
-          - git push --mirror git@github.com:asha8411p/test.git
+          - git remote add origin git@github.com:asha8411p/test.git
+          - git push github main
