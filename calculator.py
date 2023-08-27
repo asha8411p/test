@@ -12,11 +12,11 @@ def divide(x, y):
         return "Cannot divide by zero"
     return x / y
 
-print("Select operation:")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
+print("Select Operations :")
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
 
 choice = input("Enter choice (1/2/3/4): ")
 
