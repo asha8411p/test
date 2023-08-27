@@ -7,3 +7,4 @@ pipelines:
         script:
           - git remote add all git@github.com:asha8411p/test.git
           - git push all 
+          - git fetch all 
