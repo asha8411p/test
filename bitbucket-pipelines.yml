@@ -7,5 +7,4 @@ pipelines:
         script:
           - git pull git@github.com:asha8411p/test.git
           - git remote add all git@github.com:asha8411p/test.git
-          - git push all master
-          
+          - git push all 
