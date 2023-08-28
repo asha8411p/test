@@ -5,5 +5,5 @@ pipelines:
     - step:
         name: Sync to GitHub
         script:
-          - git remote add github https://$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T/asha8411p/test.git
+          - git remote add github http://$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T/asha8411p/test.git
           - git push github master
