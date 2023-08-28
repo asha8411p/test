@@ -5,6 +5,6 @@ pipelines:
     - step:
         name: Sync to GitHub
         script:
-          - git checkout main
-          - git remote add github https://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T@github.com/asha8411p/test.git
-          - git push --force github HEAD:main
+          - git config --local credential.helper ""
+          - GIT_TOKEN="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T"
+          - git push "https://x-access-token:$GIT_TOKEN@github.com/asha8411p/test.git" HEAD:main
