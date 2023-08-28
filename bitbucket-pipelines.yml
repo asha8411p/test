@@ -5,6 +5,5 @@ pipelines:
     - step:
         name: Sync to GitHub
         script:
-          - git config --global credential.helper store
           - git remote add github https://github.com/asha8411p/test.git
           - git push github main
