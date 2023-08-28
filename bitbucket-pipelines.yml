@@ -7,4 +7,4 @@ pipelines:
         script:
           - git checkout main
           - git remote add github https://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T@github.com/asha8411p/test.git
-          - git push github master
+          - git push github main
