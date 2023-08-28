@@ -10,5 +10,5 @@ pipelines:
           - echo "github.com ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHvK5z9PNNPijLMg7BxPEdVfjHepRLfIaitTQeMGTtAddiKvR0PqPwfcy1NxOgoqaclTBbMuzJ/EYfVqpRGPYM3mD8y/5fIQkUuvlfYjv8JA7OHuEaqXsXSNNqU8Qc4JF3l6RBEG8J5mRAzP6uBO04sVnma1qknzjwXgoRBpUJ51CmZVfezZRuMSi9UIoFQFd2yb+5jiH5/uqKdfvyNyfr2kNO/N/NhCXXTKdVYVajSyRcNkkAB2a4+5cM+DW9+VCaovt11UJe35yCA9aehEAdhvD+652HcS4rI2dM3beQHPso0zzJZP+ZougGZj2iGd3Eq/lLT3KM1mXRMm+CuVLD4L5HtQams8pzvwYoIVhQ3FrjuUgFkSjy43yQhbppzrKFymhC8KOZ+XReNF4z33tEKSP1HsY7jZDtAfWgbxUTevZq6mqQP2LqOpZDAYzF9K+plxYatoWaHi5jHYBghYwdmNPRK8VLUTB3U4Hr3w8CfkNxKbRapKKV2Sfk0uB+NnYApmKVHMi6ig94cWgeNrb2mimHNvHnTcQTjR0yYYWrmw1PQl39xSe2hosqcMxIFpACgtXQwk3bilZFTvqcUQCCjdOogBQXiYX5xRS84YbkKDOFA3X08ayiP9oyyOoHCe5ytI4XvwgZRqXpnzpQWJcdK/Sik2mWRrxNP+hF+VJZ9Q== aryanshah2720@gmail.com" >> ~/.ssh/known_hosts
           - git remote add github git@github.com:asha8411p/test.git
           - git pull github main
-          - git push github HEAD:main
+          - git push --force github HEAD:main
 
